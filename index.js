@@ -1,3 +1,4 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
 
@@ -6,8 +7,6 @@ const StrangerThingsRepository = require('./data/repository/StrangerThings');
 const StrangerThingsService = require('./services/StrangerThings');
 
 const app = express();
-
-// require('dotenv').config();
 
 // const PORT = process.env.PORT || 3000;
 const { UPSIDEDOWN_MODE, PORT } = process.env;
