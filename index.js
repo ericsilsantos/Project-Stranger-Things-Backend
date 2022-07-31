@@ -7,7 +7,7 @@ const StrangerThingsService = require('./services/StrangerThings');
 
 const app = express();
 
-require('dotenv').config();
+// require('dotenv').config();
 
 // const PORT = process.env.PORT || 3000;
 const { UPSIDEDOWN_MODE, PORT } = process.env;
